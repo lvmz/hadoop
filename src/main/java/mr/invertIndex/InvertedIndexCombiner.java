@@ -7,7 +7,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class InvertedIndexCombiner extends Reducer<Text, Text, Text, Text>{
-    
+    //hello hadoop
     private static Text info = new Text();  
     
     // 输入： <MapReduce:file3 {1,1,...}>  
